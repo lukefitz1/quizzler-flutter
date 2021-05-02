@@ -12,9 +12,6 @@ This is a quiz taking app developed while taking the course https://www.udemy.co
 
 ### Running tests locally:
 - First, you will want to get the device ID for the device you will be running the test on using `flutter devices`
-<br />
-- Running on iOS: 
-- `flutter drive --driver=test_driver/integration_test.dart --target=integration_test/quiz_test.dart -d YOUR_DEVICE_ID`
-<br />
-- Running on Android
-- `flutter drive --driver=test_driver/integration_test.dart --target=integration_test/quiz_test.dart -d YOUR_DEVICE_ID`
+
+- Running a test: 
+`flutter drive --driver=test_driver/integration_test.dart --target=integration_test/quiz_test.dart -d YOUR_DEVICE_ID`
